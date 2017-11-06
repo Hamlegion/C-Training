@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
         [Route("")]
         public IEnumerable<string> GetBasicInfo()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Hello World, this is a master commit" };
         }
 
         // GET: api/Home/5
@@ -29,16 +29,6 @@ namespace WebApplication1.Controllers
         // POST: api/Home
         [HttpPost]
         public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/Home/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/Home/5
-        public void Delete(int id)
         {
         }
     }
